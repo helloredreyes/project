@@ -38,6 +38,7 @@ header{
 }
 header h1{
     font-size: 35pt;
+    text-align: center;
 }
 .header-content{
     display: flex;
