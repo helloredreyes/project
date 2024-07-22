@@ -106,11 +106,57 @@ header p{
     width:50%;
     text-align: center;
 }
+/* add */
+main h3{
+    font-size:30pt;
+    text-align: center;
+}
+#question{
+    display: flex;
+    flex-direction: row;
+}
+#question img{
+    width: 50%;
+    border: 1pt #000000 solid;
+    aspect-ratio: 3 / 2;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+}
+#question h4{
+    font-size: 20pt;
+    width: 50%;
+}
+.scenarios{
+    text-align: center;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+#answer{
+    background-color: #000000;
+    padding: 20px;
+    margin: 20px 0;
+}
+#answer h5{
+    text-align: left;
+    color: #ffffff;
+}
+#answer a {
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 16pt;
+}
+#answer a:hover{
+    color:#D3A35B;
+}
+/* end of add */
 .style{
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    margin: auto;
+    margin: 0;
     justify-content: center;
     align-items: center;
     column-gap: 30px;
@@ -126,7 +172,7 @@ header p{
     align-items: center;
     column-gap: 50px;
     margin:0;
-    padding:0;
+    padding-bottom: 40px;
     color:white;
 }
 #primary{
