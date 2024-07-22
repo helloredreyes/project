@@ -89,6 +89,55 @@ header h1{
     width:100%;
     text-align: center;
 }
+/* add */
+main h3{
+    font-size:20pt;
+    text-align: center;
+}
+#question{
+    display: flex;
+    flex-direction: row;
+}
+#question img{
+    width: 50%;
+    border: 1pt #000000 solid;
+    aspect-ratio: 2 / 2;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+}
+#question h4{
+    font-size: 15pt;
+    width: 50%;
+    text-align: left;
+}
+.scenarios{
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+#answer{
+    background-color: #000000;
+    padding: 20px;
+    margin: 10px 0;
+}
+#answer h5{
+    text-align: left;
+    color: #ffffff;
+    font-size: 12pt;
+}
+#answer a {
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 10pt;
+    line-height: 2rem;
+}
+#answer a:hover{
+    color:#D3A35B;
+}
+/* end of add */
 .style{
     display: flex;
     flex-direction: column;
